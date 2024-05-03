@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+margin: 0;
+padding: 0;
+background-color: white;
+}
+
+.header{
+    background-color: #BA1F33;
+    padding: .5em;
+    text-align: center;
+    font-size: 4em;
+}
+
+.name{
+    color: #410B13
+}
+
+.section-info-header{
+    font-size: 2.5em;
+    color: #CD5D67;
+}
+
+.content-section {
+    margin: 1em;
+    color: #91171F;
+}
+
+.btn{
+    color: white;
+    background-color: green;
+    font-size: xx-large;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-property: box-shadow, transform;
+    border-radius: 25%;
+}
+
+.btn:hover, btn:focus, btn:active{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.utuber-image{
+    width: 100;
+    height: 100;
+    margin: 20px;
+}
+
+.attack-on-big-people{
+    width: 100;
+    height: 100;
+    margin: 20px;
+}
+
+.footer {
+    background-color: #BA1F33;
+    color: #410B13;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .25em 0;
+    align-items: center;
+}
+
+.footer-container {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.link-container{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 90%;
+    padding-right: 1%;
+}
+
+.link img{
+    width: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 25px;
+    padding-right: 1%;  
+}
